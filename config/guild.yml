@@ -1,0 +1,47 @@
+require: rubocop-rspec
+
+AllCops:
+  Exclude:
+    - lib/templates/**/*
+    - lib/scripts/**/*
+    - db/**/*
+    - tmp/**/*
+    - vendor/**/*
+    - bin/**/*
+    - log/**/*
+    - scripts/**/*
+    - Rakefile
+
+Metrics/AbcSize:
+  Max: 20
+
+Metrics/BlockLength:
+  CountComments: false
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+
+Metrics/ModuleLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+
+RSpec/ExampleLength:
+  Max: 8
+
+RSpec/MultipleExpectations:
+  Max: 3
+
+RSpec/NestedGroups:
+  Max: 5
+
+Style/Documentation:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
