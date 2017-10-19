@@ -22,6 +22,12 @@ Metrics/BlockLength:
     - '**/*.rake'
     - 'spec/**/*.rb'
 
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 20
+
 Metrics/ModuleLength:
   Exclude:
     - 'Rakefile'
@@ -37,7 +43,13 @@ RSpec/MultipleExpectations:
 RSpec/NestedGroups:
   Max: 5
 
+Style/BlockDelimiters:
+  Enabled: false
+
 Style/Documentation:
+  Enabled: false
+
+Style/Lambda:
   Enabled: false
 
 Style/NumericLiterals:
