@@ -43,6 +43,9 @@ RSpec/MultipleExpectations:
 RSpec/NestedGroups:
   Max: 5
 
+RSpec/MessageSpies:
+  Enabled: false
+
 Style/BlockDelimiters:
   Enabled: false
 
