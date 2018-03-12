@@ -48,3 +48,10 @@ In addition, please follow these guildlines:
 
 1. Associated cop definitions should be grouped
 2. Cops should be in alphabetical order within their groups. This makes it easier to look up the cop in the RuboCop documentation
+
+## Publishing
+
+Make sure you've been granted publish access to the [rubygem](https://rubygems.org/gems/rubocop-guild)
+
+1. Increment the gem version in `version.rb`
+2. Run `bin/rake release`. This will create a new tag based on the version, push the tag to Github, and then push the gem to Rubygems
