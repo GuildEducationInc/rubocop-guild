@@ -12,6 +12,7 @@ AllCops:
     - scripts/**/*
     - Rakefile
     - node_modules/**/*
+    - '*.gemspec'
 
 Metrics/AbcSize:
   Max: 20
