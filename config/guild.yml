@@ -19,7 +19,6 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   CountComments: false
   Exclude:
-    - 'Rakefile'
     - '**/*.rake'
     - 'spec/**/*.rb'
 
