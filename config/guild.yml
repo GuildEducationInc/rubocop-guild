@@ -53,6 +53,9 @@ Style/BlockDelimiters:
 Style/Documentation:
   Enabled: false
 
+Style/GuardClause
+  Enabled: false
+
 Style/Lambda:
   Enabled: false
 
