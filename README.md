@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/rubocop-guild.svg)](https://badge.fury.io/rb/rubocop-guild)
 # RuboCop Guild
 
 Guild Education shared RuboCop config
