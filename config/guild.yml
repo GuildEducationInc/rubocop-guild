@@ -12,6 +12,7 @@ AllCops:
     - scripts/**/*
     - Rakefile
     - node_modules/**/*
+    - '*.gemspec'
 
 Metrics/AbcSize:
   Max: 20
@@ -19,7 +20,6 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   CountComments: false
   Exclude:
-    - 'Rakefile'
     - '**/*.rake'
     - 'spec/**/*.rb'
 
@@ -51,6 +51,9 @@ Style/BlockDelimiters:
   Enabled: false
 
 Style/Documentation:
+  Enabled: false
+
+Style/GuardClause
   Enabled: false
 
 Style/Lambda:
