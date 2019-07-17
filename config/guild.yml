@@ -13,7 +13,6 @@ AllCops:
     - Rakefile
     - node_modules/**/*
     - '*.gemspec'
-  TargetRubyVersion: 2.6.3
 
 Metrics/AbcSize:
   Max: 20
